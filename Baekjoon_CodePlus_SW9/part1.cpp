@@ -127,3 +127,8 @@ int main()
 	return 0;
 }
 #endif 
+
+/* 
+원격 리포지토리에 푸시하지 못했다는 에러 처리하기
+https://blog.naver.com/venaticus629/221319594503 참조
+*/  
