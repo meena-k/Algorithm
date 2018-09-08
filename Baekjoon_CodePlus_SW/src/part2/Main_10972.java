@@ -2,7 +2,7 @@ package part2;
 
 import java.util.Scanner;
 
-/* 10972. ´ÙÀ½ ¼ø¿­ */
+/* 10972. ë‹¤ìŒ ìˆœì—´ */
 public class Main_10972 {
 
 	public static boolean next_permutation(int[] a) {
@@ -11,7 +11,7 @@ public class Main_10972 {
 			i -= 1;
 		}
 
-		// ¸¶Áö¸· ¼ø¿­
+		// ë§ˆì§€ë§‰ ìˆœì—´
 		if (i <= 0)
 			return false;
 
