@@ -114,7 +114,7 @@ public class 감시 {
 				for (int i = 0; i < N; i++) {
 					// 이전 감시 현황 가져옴
 					visited[i] = Arrays.copyOf(prev[i], M);
-				}
+				}  
 				// 감시여부 체크
 				detect(visited, node.col, node.row, 0);
 				detect(visited, node.col, node.row, 1);
